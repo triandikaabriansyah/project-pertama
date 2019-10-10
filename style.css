@@ -134,14 +134,14 @@ footer img{
 }
 .facilty p{
     color: #fff;
-    position: absolute;
-    top: 590px;
-    left: 650px;
+    position: relative;
+    top: -100px;
+    text-align: center;
 }
 .facilty hr{
-    position: absolute;
-    top: 620px;
-    left: 661.5px;
+    position: relative;
+    top: -110px;
+    text-align: center;
 }
 /* akhir about*/
 
@@ -154,19 +154,19 @@ footer img{
 /*produk*/
 .produk p{
     color: #676E72;
-    position: absolute;
+    position: relative;
     top: -140px;
-    left: 650px;
+    text-align: center;
 }
 .produk hr{
     color: #676E72;
-    position: absolute;
-    top: -105px;
-    left: 651px;
+    position: relative;
+    top: -145px;
+    text-align: center;
 }
 .produk1 h1{
     position: relative;
-    top: -70px;
+    top: -120px;
     text-align: center;
     color: #000;
 }
@@ -326,14 +326,14 @@ section .background1 img{
 }
 .service p{
     color: #676E72;
-    position: absolute;
-    top: 525px;
-    left: 650px;
+    position: relative;
+    top: 470px;
+    text-align: center;
 }
 .service hr{
-    position: absolute;
-    top: 557px;
-    left: 649px;
+    position: relative;
+    top: 460px;
+    text-align: center;
 }
 .help h1{
     position: absolute;
