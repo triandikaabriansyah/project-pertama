@@ -1,0 +1,459 @@
+body{
+	padding: 0px;
+	margin: 0px;
+    font-family: Robot, sans-serif;
+}
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Roboto;
+}
+.menu{
+    background-color: #fff;
+}
+/*nav*/
+.logo{
+    position: absolute;
+    left: 35px;
+    top: 20px;
+}
+.logo img{
+    width: 49px;
+    top: 38px;
+}
+.menu ul{
+    display: inline-flex;
+    margin: 50px;
+}
+.menu ul li{
+    list-style: none;
+    margin: 0 30px;
+    cursor: pointer;
+}
+.menu ul li:hover{
+    color: #59cbac;
+}
+.nav {
+    display: inline-flex;
+    list-style: none;
+    top: 41px;
+    right: 220px;
+    position: absolute;
+}
+.nav1 li{
+    color: #59cbac;
+}
+.nav li{
+    font-style: normal;
+    font-size: 13px;
+}
+.active {
+    font-style: normal;
+    font-size: 20px;
+    font-weight: bold;
+    top: 37px;
+    left: 90px;
+    position: absolute;
+}
+.active ul li {
+    margin: 0 20px;
+}
+.login{
+    top: 30px;
+    right: 60px;
+    position: absolute;
+    text-decoration: none;
+    color: #259BDE;
+    border: 2px solid transparent;
+    border-radius: 3px;
+    background-image: linear-gradient(#59cbac, #59cbac),radial-gradient(circle at top left,#fd00da,#19d7f8);
+    background-origin: border-box;
+    width: 105px;
+    text-align: center;
+    cursor: pointer;
+}
+.login span{
+    font-weight: 400;
+    color: #FFFFFF;
+    display: block;
+    padding: 8px 22px;
+}
+/* akhir nav*/
+/*about*/
+footer img{
+    width: 100%;
+    height: 557px;
+}
+.app-text h1{
+    font-size: 50px;
+    width: 600px;
+    position: absolute;
+    left: 150px;
+    top: 245px;
+    color:  #fff;
+}
+.app-text span{
+    font-size: 67px;
+    width: 700px;
+    position: absolute;
+    left: 0px;
+    top: 44.5px;
+    color:  #fff;
+}
+.app-text small{
+    position: absolute;
+    top: 397px;
+    left: 153px;
+    font-size: 19px;
+    color: #fff;
+    opacity: 0.9;
+}
+.learn{
+    list-style: none;
+    top: 950px;
+    left: 186px;
+    position: absolute;
+    text-decoration: none;
+    color: #259BDE;
+    border: 1px solid transparent;
+    background-image: linear-gradient(#59cbac, #59cbac),radial-gradient(circle at top left,#fd00da,#19d7f8);
+    background-origin: border-box;
+    width: 105px;
+    height: 30px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 1px;
+}
+.learn span{
+    font-size: 14px;
+    width: 450px;
+    color: #fff;
+    position: absolute;
+    top: 6px;
+    left: -171px;
+}
+.facilty p{
+    color: #fff;
+    position: absolute;
+    top: 590px;
+    left: 650px;
+}
+.facilty hr{
+    position: absolute;
+    top: 620px;
+    left: 661.5px;
+}
+/* akhir about*/
+
+.img img{
+    width: 450px;
+    position: absolute;
+    right: 160px;
+    top: 770px;
+}
+/*produk*/
+.produk p{
+    color: #676E72;
+    position: absolute;
+    top: -140px;
+    left: 650px;
+}
+.produk hr{
+    color: #676E72;
+    position: absolute;
+    top: -105px;
+    left: 651px;
+}
+.produk1 h1{
+    position: relative;
+    top: -70px;
+    text-align: center;
+    color: #000;
+}
+.padi img{
+    position: absolute;
+    left: 170px;
+    top: -0px;
+}
+.padi p{
+    position: absolute;
+    left: 295px;
+    top: 180px;
+    font-size: 22px;
+    font-weight: bold;
+}
+.padi p1{
+    position: absolute;
+    font-size: 16px;
+    left: 264px;
+    top: 265px;
+    color: #59cbac;
+}
+.cat1{
+    font-size: 14px;
+    width: 150px;
+    height: 50px;
+    background-color: #fff;
+    border: 1px solid #676E72;
+    text-align: center;
+    border-radius: 5px;
+    position: absolute;
+    left: 234px;
+    top: 300px;
+    cursor: pointer;
+}
+.padi small{
+    position: absolute;
+    left: 213px;
+    top: 235px;
+    font-size: 12px;
+    font-weight: bold;
+}
+.gandum img{
+    position: absolute;
+    left: 575px;
+    top: 20px;
+    width: 180px;
+}
+.gandum p{
+    position: absolute;
+    left: 665px;
+    top: 180px;
+    font-size: 22px;
+    font-weight: bold;
+}
+.gandum small{
+    position: absolute;
+    left: 590px;
+    top: 235px;
+    font-size: 12px;
+    font-weight: bold;
+}
+.gandum p1{
+    position: absolute;
+    font-size: 16px;
+    left: 644px;
+    top: 265px;
+    color: #59cbac;
+}
+.cat2{
+    font-size: 14px;
+    width: 150px;
+    height: 50px;
+    background-color: #fff;
+    border: 1px solid #676E72;
+    text-align: center;
+    border-radius: 5px;
+    position: absolute;
+    left: 614px;
+    top: 300px;
+    cursor: pointer;
+}
+.corn img{
+    position: absolute;
+    left: 963px;
+    top: 33px;
+    width: 170px;
+}
+.corn p{
+    position: absolute;
+    left: 1010px;
+    top: 180px;
+    font-size: 22px;
+    font-weight: bold;
+}
+.corn small{
+    position: absolute;
+    left: 937px;
+    top: 235px;
+    font-size: 12px;
+    font-weight: bold;
+}
+.corn p1{
+    position: absolute;
+    font-size: 16px;
+    left: 984px;
+    top: 265px;
+    color: #59cbac;
+}
+.cat3{
+    font-size: 14px;
+    width: 150px;
+    height: 50px;
+    background-color: #fff;
+    border: 1px solid #676E72;
+    text-align: center;
+    border-radius: 5px;
+    position: absolute;
+    left: 957px;
+    top: 300px;
+    cursor: pointer;
+}
+section{
+    position: absolute;
+    top: 1306px;
+    width: 100%;
+    height: 560px;
+    background-color: #fff;
+}
+section .background1 img{
+    position: absolute;
+    top: -75px;
+    width: 100%;
+    height: 575px;
+}
+.background {
+    position: absolute;
+    top: -75px;
+    left: 97px;
+    width: 1150px;
+    height: 575px;
+    background-color: #fff;
+}
+/*akhir produk*/
+.read p{
+    color: #59cbac;
+    font-size: 25px;
+    font-weight: bold;
+    position: absolute;
+    top: 820px;
+    right: 835px;
+}
+.read small{
+    position: absolute;
+    top: 920px;
+    right: 893px;
+}
+.service p{
+    color: #676E72;
+    position: absolute;
+    top: 525px;
+    left: 650px;
+}
+.service hr{
+    position: absolute;
+    top: 557px;
+    left: 649px;
+}
+.help h1{
+    position: absolute;
+    top: 620px;
+    left: 200px;
+    font-weight: bold;
+    font-size: 35px;
+}
+.help small{
+    position: absolute;
+    top: 740px;
+    left: 200px;
+    font-size: 13px;
+    color: #bcb5b5;
+}
+.help img{
+    position: absolute;
+    top: 760px;
+    width: 400px;
+    left: 140px;
+}
+.form_control{
+    position: absolute;
+    top: 690px;
+    background-color: #eeeaea;
+    border: 1px solid #bcb5b5;
+    left: 750px;
+    width: 340px;
+    height: 30px;
+    border-radius: 2px;
+}
+.name{
+    position: absolute;
+    top: 669px;
+    left: 750px;
+    font-size: 12px;
+    color: #767373;
+}
+.form_email{
+    position: absolute;
+    top: 760px;
+    background-color: #eeeaea;
+    border: 1px solid #bcb5b5;
+    left: 750px;
+    width: 340px;
+    height: 30px;
+    border-radius: 2px;
+}
+.email{
+    position: absolute;
+    top: 739px;
+    left: 750px;
+    font-size: 12px;
+    color: #767373;
+}
+.form_message{
+    position: absolute;
+    top: 825px;
+    background-color: #eeeaea;
+    border: 1px solid #bcb5b5;
+    left: 750px;
+    width: 340px;
+    height: 130px;
+    border-radius: 2px;
+}
+.message{
+    position: absolute;
+    top: 805px;
+    left: 750px;
+    font-size: 12px;
+    color: #767373;
+}
+.accept1{
+    position: absolute;
+    top: 977px;
+    left: 770px;
+    font-size: 11.5px;
+    color: #000;
+}
+.accept{
+    position: absolute;
+    top: 974px;
+    left: 746px;
+    font-size: 12px;
+}
+.send{
+    top: 970px;
+    right: 255px;
+    position: absolute;
+    text-decoration: none;
+    color: #259BDE;
+    border: 2px solid transparent;
+    border-radius: 3px;
+    background-image: linear-gradient(#59cbac, #59cbac),radial-gradient(circle at top left,#fd00da,#19d7f8);
+    background-origin: border-box;
+    width: 82px;
+    height: 25px;
+    text-align: center;
+    cursor: pointer;
+    list-style: none;
+}
+.send span{
+    font-size: 14px;
+    color: #FFFFFF;
+    display: block;
+    padding: 5px 22px;
+    position: absolute;
+    left: -9px;
+}
+.send1 img{
+    position: absolute;
+    top: 978px;
+    right: 265px;
+    width: 15px;
+    height: 15px;
+}
+
+
+
+
+
+
+
