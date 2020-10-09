@@ -166,13 +166,6 @@ footer img {
     text-align: center;
 }
 
-.facilty hr {
-    position: relative;
-    top: -110px;
-    text-align: center;
-}
-
-
 /* akhir about*/
 
 .img img {
@@ -410,12 +403,6 @@ section .background1 img {
     color: #676E72;
     position: relative;
     top: 470px;
-    text-align: center;
-}
-
-.service hr {
-    position: relative;
-    top: 460px;
     text-align: center;
 }
 
