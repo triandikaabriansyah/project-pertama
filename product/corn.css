@@ -1,0 +1,159 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: Robot, sans-serif;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Roboto;
+}
+
+.menu {
+    background-color: #fff;
+}
+
+
+/*nav*/
+
+.logo {
+    position: absolute;
+    left: 35px;
+    top: 20px;
+}
+
+.logo img {
+    width: 49px;
+    top: 38px;
+}
+
+.menu ul {
+    display: inline-flex;
+    margin: 50px;
+}
+
+.menu ul li {
+    list-style: none;
+    margin: 0 30px;
+    cursor: pointer;
+}
+
+.menu ul li:hover {
+    color: #59cbac;
+}
+
+.nav {
+    display: inline-flex;
+    list-style: none;
+    top: 41px;
+    right: 220px;
+    position: absolute;
+}
+
+.nav1 li {
+    color: #59cbac;
+}
+
+.nav li {
+    font-style: normal;
+    font-size: 13px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.active {
+    font-style: normal;
+    font-size: 20px;
+    font-weight: bold;
+    top: 37px;
+    left: 90px;
+    position: absolute;
+}
+
+.active ul li {
+    margin: 0 20px;
+}
+
+.login {
+    top: 30px;
+    right: 60px;
+    position: absolute;
+    text-decoration: none;
+    color: #259BDE;
+    border: 2px solid transparent;
+    border-radius: 3px;
+    background-image: linear-gradient(#59cbac, #59cbac), radial-gradient(circle at top left, #fd00da, #19d7f8);
+    background-origin: border-box;
+    width: 105px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.login span {
+    font-weight: 400;
+    color: #FFFFFF;
+    display: block;
+    padding: 8px 22px;
+}
+
+
+/* akhir nav*/
+
+.title h1 {
+    text-align: center;
+}
+
+.padi1 p {
+    font-size: 18px;
+    position: absolute;
+    left: 150px;
+    margin-top: 20px;
+}
+
+.padi1 img {
+    position: absolute;
+    margin-top: 5px;
+    top: 240px;
+    left: 150px;
+    width: 300px;
+}
+
+.cara1 p {
+    font-size: 15px;
+    position: absolute;
+    top: 225px;
+    left: 500px;
+    width: 500px;
+    text-align: justify;
+}
+
+.padi2 p {
+    font-size: 18px;
+    position: absolute;
+    top: 450px;
+    right: 350px;
+    margin-top: 30px;
+}
+
+.padi2 img {
+    position: absolute;
+    top: 510px;
+    right: 350px;
+    width: 300px;
+    height: 200px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.cara2 p {
+    font-size: 15px;
+    position: absolute;
+    top: 515px;
+    left: 150px;
+    width: 500px;
+    text-align: justify;
+}

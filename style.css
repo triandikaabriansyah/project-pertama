@@ -1,38 +1,48 @@
-body{
-	padding: 0px;
-	margin: 0px;
+body {
+    padding: 0px;
+    margin: 0px;
     font-family: Robot, sans-serif;
 }
-body{
+
+body {
     padding: 0;
     margin: 0;
     font-family: Roboto;
 }
-.menu{
+
+.menu {
     background-color: #fff;
 }
+
+
 /*nav*/
-.logo{
+
+.logo {
     position: absolute;
     left: 35px;
     top: 20px;
 }
-.logo img{
+
+.logo img {
     width: 49px;
     top: 38px;
 }
-.menu ul{
+
+.menu ul {
     display: inline-flex;
     margin: 50px;
 }
-.menu ul li{
+
+.menu ul li {
     list-style: none;
     margin: 0 30px;
     cursor: pointer;
 }
-.menu ul li:hover{
+
+.menu ul li:hover {
     color: #59cbac;
 }
+
 .nav {
     display: inline-flex;
     list-style: none;
@@ -40,13 +50,16 @@ body{
     right: 220px;
     position: absolute;
 }
-.nav1 li{
+
+.nav1 li {
     color: #59cbac;
 }
-.nav li{
+
+.nav li {
     font-style: normal;
     font-size: 13px;
 }
+
 .active {
     font-style: normal;
     font-size: 20px;
@@ -55,10 +68,12 @@ body{
     left: 90px;
     position: absolute;
 }
+
 .active ul li {
     margin: 0 20px;
 }
-.login{
+
+.login {
     top: 30px;
     right: 60px;
     position: absolute;
@@ -66,49 +81,59 @@ body{
     color: #259BDE;
     border: 2px solid transparent;
     border-radius: 3px;
-    background-image: linear-gradient(#59cbac, #59cbac),radial-gradient(circle at top left,#fd00da,#19d7f8);
+    background-image: linear-gradient(#59cbac, #59cbac), radial-gradient(circle at top left, #fd00da, #19d7f8);
     background-origin: border-box;
     width: 105px;
     text-align: center;
     cursor: pointer;
 }
-.login span{
+
+.login span {
     font-weight: 400;
     color: #FFFFFF;
     display: block;
     padding: 8px 22px;
 }
+
+
 /* akhir nav*/
+
+
 /*about*/
-footer img{
+
+footer img {
     width: 100%;
     height: 557px;
 }
-.app-text h1{
+
+.app-text h1 {
     font-size: 50px;
     width: 600px;
     position: absolute;
     left: 150px;
     top: 245px;
-    color:  #fff;
+    color: #fff;
 }
-.app-text span{
+
+.app-text span {
     font-size: 67px;
     width: 700px;
     position: absolute;
     left: 0px;
     top: 44.5px;
-    color:  #fff;
+    color: #fff;
 }
-.app-text small{
+
+.app-text small {
     position: absolute;
     top: 397px;
     left: 153px;
-    font-size: 19px;
+    font-size: 18px;
     color: #fff;
     opacity: 0.9;
 }
-.learn{
+
+.learn {
     list-style: none;
     top: 950px;
     left: 186px;
@@ -116,7 +141,7 @@ footer img{
     text-decoration: none;
     color: #259BDE;
     border: 1px solid transparent;
-    background-image: linear-gradient(#59cbac, #59cbac),radial-gradient(circle at top left,#fd00da,#19d7f8);
+    background-image: linear-gradient(#59cbac, #59cbac), radial-gradient(circle at top left, #fd00da, #19d7f8);
     background-origin: border-box;
     width: 105px;
     height: 30px;
@@ -124,7 +149,8 @@ footer img{
     cursor: pointer;
     border-radius: 1px;
 }
-.learn span{
+
+.learn span {
     font-size: 14px;
     width: 450px;
     color: #fff;
@@ -132,64 +158,77 @@ footer img{
     top: 6px;
     left: -171px;
 }
-.facilty p{
+
+.facilty p {
     color: #fff;
     position: relative;
     top: -100px;
     text-align: center;
 }
-.facilty hr{
+
+.facilty hr {
     position: relative;
     top: -110px;
     text-align: center;
 }
+
+
 /* akhir about*/
 
-.img img{
+.img img {
     width: 450px;
     position: absolute;
     right: 160px;
     top: 770px;
 }
+
+
 /*produk*/
-.produk p{
+
+.produk p {
     color: #676E72;
     position: relative;
     top: -140px;
     text-align: center;
 }
-.produk hr{
+
+.produk hr {
     color: #676E72;
     position: relative;
     top: -145px;
     text-align: center;
 }
-.produk1 h1{
+
+.produk1 h1 {
     position: relative;
     top: -120px;
     text-align: center;
     color: #000;
 }
-.padi img{
+
+.padi img {
     position: absolute;
     left: 170px;
     top: -0px;
 }
-.padi p{
+
+.padi p {
     position: absolute;
     left: 295px;
     top: 180px;
     font-size: 22px;
     font-weight: bold;
 }
-.padi p1{
+
+.padi p1 {
     position: absolute;
     font-size: 16px;
     left: 264px;
     top: 265px;
     color: #59cbac;
 }
-.cat1{
+
+.cat1 {
     font-size: 14px;
     width: 150px;
     height: 50px;
@@ -198,45 +237,75 @@ footer img{
     text-align: center;
     border-radius: 5px;
     position: absolute;
-    left: 234px;
+    left: 235px;
     top: 300px;
     cursor: pointer;
 }
-.padi small{
+
+.padi small {
     position: absolute;
     left: 213px;
     top: 235px;
     font-size: 12px;
     font-weight: bold;
 }
-.gandum img{
+
+.padi a {
+    color: black;
+}
+
+.padi a:hover {
+    color: #59cbac;
+}
+
+.gandum a {
+    color: black;
+}
+
+.gandum a:hover {
+    color: #59cbac;
+}
+
+.corn a {
+    color: black;
+}
+
+.corn a:hover {
+    color: #59cbac;
+}
+
+.gandum img {
     position: absolute;
     left: 575px;
     top: 20px;
     width: 180px;
 }
-.gandum p{
+
+.gandum p {
     position: absolute;
     left: 665px;
     top: 180px;
     font-size: 22px;
     font-weight: bold;
 }
-.gandum small{
+
+.gandum small {
     position: absolute;
     left: 590px;
     top: 235px;
     font-size: 12px;
     font-weight: bold;
 }
-.gandum p1{
+
+.gandum p1 {
     position: absolute;
     font-size: 16px;
     left: 644px;
     top: 265px;
     color: #59cbac;
 }
-.cat2{
+
+.cat2 {
     font-size: 14px;
     width: 150px;
     height: 50px;
@@ -245,38 +314,43 @@ footer img{
     text-align: center;
     border-radius: 5px;
     position: absolute;
-    left: 614px;
+    left: 615px;
     top: 300px;
     cursor: pointer;
 }
-.corn img{
+
+.corn img {
     position: absolute;
     left: 963px;
     top: 33px;
     width: 170px;
 }
-.corn p{
+
+.corn p {
     position: absolute;
     left: 1010px;
     top: 180px;
     font-size: 22px;
     font-weight: bold;
 }
-.corn small{
+
+.corn small {
     position: absolute;
     left: 937px;
     top: 235px;
     font-size: 12px;
     font-weight: bold;
 }
-.corn p1{
+
+.corn p1 {
     position: absolute;
     font-size: 16px;
     left: 984px;
     top: 265px;
     color: #59cbac;
 }
-.cat3{
+
+.cat3 {
     font-size: 14px;
     width: 150px;
     height: 50px;
@@ -289,19 +363,22 @@ footer img{
     top: 300px;
     cursor: pointer;
 }
-section{
+
+section {
     position: absolute;
     top: 1306px;
     width: 100%;
     height: 560px;
     background-color: #fff;
 }
-section .background1 img{
+
+section .background1 img {
     position: absolute;
     top: -75px;
     width: 100%;
     height: 575px;
 }
+
 .background {
     position: absolute;
     top: -75px;
@@ -310,8 +387,11 @@ section .background1 img{
     height: 575px;
     background-color: #fff;
 }
+
+
 /*akhir produk*/
-.read p{
+
+.read p {
     color: #59cbac;
     font-size: 25px;
     font-weight: bold;
@@ -319,43 +399,50 @@ section .background1 img{
     top: 820px;
     right: 835px;
 }
-.read small{
+
+.read small {
     position: absolute;
     top: 920px;
     right: 893px;
 }
-.service p{
+
+.service p {
     color: #676E72;
     position: relative;
     top: 470px;
     text-align: center;
 }
-.service hr{
+
+.service hr {
     position: relative;
     top: 460px;
     text-align: center;
 }
-.help h1{
+
+.help h1 {
     position: absolute;
     top: 620px;
     left: 200px;
     font-weight: bold;
     font-size: 35px;
 }
-.help small{
+
+.help small {
     position: absolute;
     top: 740px;
     left: 200px;
     font-size: 13px;
     color: #bcb5b5;
 }
-.help img{
+
+.help img {
     position: absolute;
     top: 760px;
     width: 400px;
     left: 140px;
 }
-.form_control{
+
+.form_control {
     position: absolute;
     top: 690px;
     background-color: #eeeaea;
@@ -365,14 +452,16 @@ section .background1 img{
     height: 30px;
     border-radius: 2px;
 }
-.name{
+
+.name {
     position: absolute;
     top: 669px;
     left: 750px;
     font-size: 12px;
     color: #767373;
 }
-.form_email{
+
+.form_email {
     position: absolute;
     top: 760px;
     background-color: #eeeaea;
@@ -382,14 +471,16 @@ section .background1 img{
     height: 30px;
     border-radius: 2px;
 }
-.email{
+
+.email {
     position: absolute;
     top: 739px;
     left: 750px;
     font-size: 12px;
     color: #767373;
 }
-.form_message{
+
+.form_message {
     position: absolute;
     top: 825px;
     background-color: #eeeaea;
@@ -399,27 +490,31 @@ section .background1 img{
     height: 130px;
     border-radius: 2px;
 }
-.message{
+
+.message {
     position: absolute;
     top: 805px;
     left: 750px;
     font-size: 12px;
     color: #767373;
 }
-.accept1{
+
+.accept1 {
     position: absolute;
     top: 977px;
     left: 770px;
     font-size: 11.5px;
     color: #000;
 }
-.accept{
+
+.accept {
     position: absolute;
     top: 974px;
     left: 746px;
     font-size: 12px;
 }
-.send{
+
+.send {
     top: 970px;
     right: 255px;
     position: absolute;
@@ -427,7 +522,7 @@ section .background1 img{
     color: #259BDE;
     border: 2px solid transparent;
     border-radius: 3px;
-    background-image: linear-gradient(#59cbac, #59cbac),radial-gradient(circle at top left,#fd00da,#19d7f8);
+    background-image: linear-gradient(#59cbac, #59cbac), radial-gradient(circle at top left, #fd00da, #19d7f8);
     background-origin: border-box;
     width: 82px;
     height: 25px;
@@ -435,7 +530,8 @@ section .background1 img{
     cursor: pointer;
     list-style: none;
 }
-.send span{
+
+.send span {
     font-size: 14px;
     color: #FFFFFF;
     display: block;
@@ -443,17 +539,11 @@ section .background1 img{
     position: absolute;
     left: -9px;
 }
-.send1 img{
+
+.send1 img {
     position: absolute;
     top: 978px;
     right: 265px;
     width: 15px;
     height: 15px;
 }
-
-
-
-
-
-
-
