@@ -63,26 +63,27 @@ if(isset($_POST["login"])){
             <img src="img/logo.png" width="60" height="60" alt="">
             Tanam
             <h1>Tanam</h1>
-            <h2>Selamat Datang!</h2>          
+            <h2>Welcome!</h2>                  
         </a>        
-        </nav>        
+        </nav>         
     </div>
-    <div class="col-lg-6 mt-5 ml-4">
-    <h1 style=" color:#20c997;" class="font-weight-bold">Login ke Akun Anda</h1>   
+    <div class="col-lg-6 mt-3 ml-4">
+    <h1 style=" color:#20c997;" class="font-weight-bold">Login to your account</h1>   
         <?php if(isset( $error)):?>
             <p style="color:red; font-style:italic">Username / Password Salah</p>
         <?php endif?>
         <form action="" method="post">
             <div class="form-group">
                 <label for="username">Username</label>
-                <input type="text" class="form-control" name="username" id="username" placeholder="Masukkan Username" Required>
+                <input type="text" class="form-control" name="username" id="username" placeholder="Username" Required>
             </div>
             <div class="form-group">
                 <label for="password">Password</label>
-                <input type="password" class="form-control" name="password" id="password" placeholder="Masukkan Password" Required>
+                <input type="password" class="form-control" name="password" id="password" placeholder="Password" Required>
             </div>
-            <button type="submit" class="btn" name="login">Login</button>
+            <button type="submit" class="btn" name="login">Login</button>            
         </form>
+        <a href="../sign-up"><p style=" color:#20c997;" class="mt-4">Don't have an account, please <b>register</b> first</p></a>          
     </div>
   </div>
 

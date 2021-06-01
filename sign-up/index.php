@@ -1,9 +1,4 @@
 <?php
-session_start();
-if(!isset($_SESSION["login"])){
-	header("location: ../login/index.php");
-	exit;
-}
 require '../functions.php';
 if(isset($_POST["register"])){
 	if(registrasi($_POST) >
@@ -51,28 +46,28 @@ if(isset($_POST["register"])){
          <nav class="navbar navbar-dark p-5">
         <a class="navbar-brand" href="../index.php">
             <img src="img/logo.png" width="60" height="60" alt="">
-            Edu MI
-            <h1>Edu Mi</h1>
-            <h2>Selamat Datang!</h2>  
-            <p>Silahkan buat akun untuk bisa login</p>        
+            Tanam
+            <h1>Tanam</h1>
+            <h2>Welcome!</h2>  
+            <p>Please create an account to login</p>        
         </a>        
         </nav>                                              
-    <div class="col-lg-10">
-        <h1 style=" color:#20c997;" class="font-weight-bold">Silahkan Buat Akun Anda</h1>
+    <div class="col-lg-12">
+        <h1 style=" color:#20c997;" class="font-weight-bold mt-2">Please Create Your Account</h1>
         <form action="" method="post">
             <div class="form-group">
                 <label for="exampleInputEmail1">Username</label>
-                <input type="text" class="form-control" name="username" id="username" placeholder="Masukkan Username" Required>
+                <input type="text" class="form-control" name="username" id="username" placeholder="Username" Required>
             </div>
             <div class="form-group">
                 <label for="exampleInputPassword1">Password</label>
-                <input type="password" class="form-control" name="password" id="password" placeholder="Masukkan Password" Required>
+                <input type="password" class="form-control" name="password" id="password" placeholder="Password" Required>
             </div>
             <div class="form-group">
                 <label for="exampleInputPassword1">Password</label>
-                <input type="password" class="form-control" name="password2" id="password2" placeholder="Konfirmasi Password" Required>
+                <input type="password" class="form-control" name="password2" id="password2" placeholder="Confirm Password" Required>
             </div>
-            <button type="submit" class="btn" name="register">Sign UP</button>
+            <button type="submit" class="btn" name="register">Sign Up</button>
         </form>
     </div>
   </div>
